@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		AA3EC6F81D7BF76200AB5866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC6F71D7BF76200AB5866 /* main.m */; };
 		AA3EC6FB1D7BF76200AB5866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC6FA1D7BF76200AB5866 /* AppDelegate.m */; };
-		AA3EC6FE1D7BF76200AB5866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC6FD1D7BF76200AB5866 /* ViewController.m */; };
 		AA3EC7011D7BF76200AB5866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC6FF1D7BF76200AB5866 /* Main.storyboard */; };
 		AA3EC7031D7BF76200AB5866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7021D7BF76200AB5866 /* Assets.xcassets */; };
 		AA3EC7061D7BF76200AB5866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7041D7BF76200AB5866 /* LaunchScreen.storyboard */; };
+		AA3EC70F1D7BF77D00AB5866 /* MusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC70E1D7BF77D00AB5866 /* MusicTableViewController.m */; };
+		AA3EC7121D7BF89400AB5866 /* MusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC7111D7BF89400AB5866 /* MusicTableViewCell.m */; };
+		AA3EC71A1D7C246800AB5866 /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7141D7C246800AB5866 /* 11.mp3 */; };
+		AA3EC71B1D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7151D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 */; };
+		AA3EC71C1D7C246800AB5866 /* Chanté Moore - Do for You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7161D7C246800AB5866 /* Chanté Moore - Do for You.mp3 */; };
+		AA3EC71D1D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7171D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 */; };
+		AA3EC71E1D7C246800AB5866 /* The XX - Intro - intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7181D7C246800AB5866 /* The XX - Intro - intro.mp3 */; };
+		AA3EC71F1D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7191D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 */; };
+		AA3EC7221D7C249900AB5866 /* MusicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC7211D7C249900AB5866 /* MusicDataSource.m */; };
+		AA3EC7251D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC7241D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,24 @@
 		AA3EC6F71D7BF76200AB5866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA3EC6F91D7BF76200AB5866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA3EC6FA1D7BF76200AB5866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA3EC6FC1D7BF76200AB5866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA3EC6FD1D7BF76200AB5866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AA3EC7001D7BF76200AB5866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA3EC7021D7BF76200AB5866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA3EC7051D7BF76200AB5866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA3EC7071D7BF76200AB5866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3EC70D1D7BF77D00AB5866 /* MusicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewController.h; sourceTree = "<group>"; };
+		AA3EC70E1D7BF77D00AB5866 /* MusicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewController.m; sourceTree = "<group>"; };
+		AA3EC7101D7BF89400AB5866 /* MusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewCell.h; sourceTree = "<group>"; };
+		AA3EC7111D7BF89400AB5866 /* MusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewCell.m; sourceTree = "<group>"; };
+		AA3EC7141D7C246800AB5866 /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11.mp3; sourceTree = "<group>"; };
+		AA3EC7151D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "岸部眞明 - 春、来る.mp3"; sourceTree = "<group>"; };
+		AA3EC7161D7C246800AB5866 /* Chanté Moore - Do for You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chanté Moore - Do for You.mp3"; sourceTree = "<group>"; };
+		AA3EC7171D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Edward Maya,Violet Light - Love Story.mp3"; sourceTree = "<group>"; };
+		AA3EC7181D7C246800AB5866 /* The XX - Intro - intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The XX - Intro - intro.mp3"; sourceTree = "<group>"; };
+		AA3EC7191D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Thomas Bergersen - Empire of Angels.mp3"; sourceTree = "<group>"; };
+		AA3EC7201D7C249900AB5866 /* MusicDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDataSource.h; sourceTree = "<group>"; };
+		AA3EC7211D7C249900AB5866 /* MusicDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDataSource.m; sourceTree = "<group>"; };
+		AA3EC7231D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+stringByDecodingURLFormat.h"; sourceTree = "<group>"; };
+		AA3EC7241D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringByDecodingURLFormat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +79,22 @@
 		AA3EC6F51D7BF76200AB5866 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				AA3EC7131D7C245600AB5866 /* mp3 */,
 				AA3EC6F91D7BF76200AB5866 /* AppDelegate.h */,
 				AA3EC6FA1D7BF76200AB5866 /* AppDelegate.m */,
-				AA3EC6FC1D7BF76200AB5866 /* ViewController.h */,
-				AA3EC6FD1D7BF76200AB5866 /* ViewController.m */,
 				AA3EC6FF1D7BF76200AB5866 /* Main.storyboard */,
 				AA3EC7021D7BF76200AB5866 /* Assets.xcassets */,
 				AA3EC7041D7BF76200AB5866 /* LaunchScreen.storyboard */,
 				AA3EC7071D7BF76200AB5866 /* Info.plist */,
 				AA3EC6F61D7BF76200AB5866 /* Supporting Files */,
+				AA3EC70D1D7BF77D00AB5866 /* MusicTableViewController.h */,
+				AA3EC70E1D7BF77D00AB5866 /* MusicTableViewController.m */,
+				AA3EC7101D7BF89400AB5866 /* MusicTableViewCell.h */,
+				AA3EC7111D7BF89400AB5866 /* MusicTableViewCell.m */,
+				AA3EC7201D7C249900AB5866 /* MusicDataSource.h */,
+				AA3EC7211D7C249900AB5866 /* MusicDataSource.m */,
+				AA3EC7231D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.h */,
+				AA3EC7241D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.m */,
 			);
 			path = MusicApp;
 			sourceTree = "<group>";
@@ -77,6 +105,19 @@
 				AA3EC6F71D7BF76200AB5866 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA3EC7131D7C245600AB5866 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				AA3EC7141D7C246800AB5866 /* 11.mp3 */,
+				AA3EC7151D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 */,
+				AA3EC7161D7C246800AB5866 /* Chanté Moore - Do for You.mp3 */,
+				AA3EC7171D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 */,
+				AA3EC7181D7C246800AB5866 /* The XX - Intro - intro.mp3 */,
+				AA3EC7191D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 */,
+			);
+			name = mp3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +179,13 @@
 			files = (
 				AA3EC7061D7BF76200AB5866 /* LaunchScreen.storyboard in Resources */,
 				AA3EC7031D7BF76200AB5866 /* Assets.xcassets in Resources */,
+				AA3EC71A1D7C246800AB5866 /* 11.mp3 in Resources */,
+				AA3EC71E1D7C246800AB5866 /* The XX - Intro - intro.mp3 in Resources */,
 				AA3EC7011D7BF76200AB5866 /* Main.storyboard in Resources */,
+				AA3EC71F1D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 in Resources */,
+				AA3EC71D1D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 in Resources */,
+				AA3EC71C1D7C246800AB5866 /* Chanté Moore - Do for You.mp3 in Resources */,
+				AA3EC71B1D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3EC6FE1D7BF76200AB5866 /* ViewController.m in Sources */,
+				AA3EC7221D7C249900AB5866 /* MusicDataSource.m in Sources */,
+				AA3EC7251D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.m in Sources */,
 				AA3EC6FB1D7BF76200AB5866 /* AppDelegate.m in Sources */,
+				AA3EC70F1D7BF77D00AB5866 /* MusicTableViewController.m in Sources */,
 				AA3EC6F81D7BF76200AB5866 /* main.m in Sources */,
+				AA3EC7121D7BF89400AB5866 /* MusicTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
