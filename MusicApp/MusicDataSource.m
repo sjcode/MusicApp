@@ -43,34 +43,6 @@
             AVAudioPlayer *player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
             music.duration = player.duration;
             [array addObject:music];
-            
-            music = [[MusicItem alloc]init];
-            music.musicName = [[[url.absoluteString lastPathComponent]stringByDecodingURLFormat]stringByDeletingPathExtension];
-            music.url = url;
-            player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-            music.duration = player.duration;
-            [array addObject:music];
-            
-            music = [[MusicItem alloc]init];
-            music.musicName = [[[url.absoluteString lastPathComponent]stringByDecodingURLFormat]stringByDeletingPathExtension];
-            music.url = url;
-            player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-            music.duration = player.duration;
-            [array addObject:music];
-            
-            music = [[MusicItem alloc]init];
-            music.musicName = [[[url.absoluteString lastPathComponent]stringByDecodingURLFormat]stringByDeletingPathExtension];
-            music.url = url;
-            player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-            music.duration = player.duration;
-            [array addObject:music];
-            
-            music = [[MusicItem alloc]init];
-            music.musicName = [[[url.absoluteString lastPathComponent]stringByDecodingURLFormat]stringByDeletingPathExtension];
-            music.url = url;
-            player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-            music.duration = player.duration;
-            [array addObject:music];
         }
         self.dataArray = array;
         dispatch_async(dispatch_get_main_queue(), ^{

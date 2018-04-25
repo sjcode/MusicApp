@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA19F5D31D7FBB180062A679 /* 《动物世界》主题曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA19F5CD1D7FBB180062A679 /* 《动物世界》主题曲.mp3 */; };
+		AA19F5D41D7FBB180062A679 /* 星空.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA19F5CE1D7FBB180062A679 /* 星空.mp3 */; };
+		AA19F5D51D7FBB180062A679 /* Adagio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA19F5CF1D7FBB180062A679 /* Adagio.mp3 */; };
+		AA19F5D61D7FBB180062A679 /* Merry Christmas Mr. Lawrence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA19F5D01D7FBB180062A679 /* Merry Christmas Mr. Lawrence.mp3 */; };
+		AA19F5D71D7FBB180062A679 /* Song From A Secret Garden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA19F5D11D7FBB180062A679 /* Song From A Secret Garden.mp3 */; };
+		AA19F5D81D7FBB180062A679 /* The Fox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA19F5D21D7FBB180062A679 /* The Fox.mp3 */; };
 		AA3EC6F81D7BF76200AB5866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC6F71D7BF76200AB5866 /* main.m */; };
 		AA3EC6FB1D7BF76200AB5866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC6FA1D7BF76200AB5866 /* AppDelegate.m */; };
 		AA3EC7011D7BF76200AB5866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC6FF1D7BF76200AB5866 /* Main.storyboard */; };
@@ -14,17 +20,17 @@
 		AA3EC7061D7BF76200AB5866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7041D7BF76200AB5866 /* LaunchScreen.storyboard */; };
 		AA3EC70F1D7BF77D00AB5866 /* MusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC70E1D7BF77D00AB5866 /* MusicTableViewController.m */; };
 		AA3EC7121D7BF89400AB5866 /* MusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC7111D7BF89400AB5866 /* MusicTableViewCell.m */; };
-		AA3EC71A1D7C246800AB5866 /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7141D7C246800AB5866 /* 11.mp3 */; };
-		AA3EC71B1D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7151D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 */; };
-		AA3EC71C1D7C246800AB5866 /* Chanté Moore - Do for You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7161D7C246800AB5866 /* Chanté Moore - Do for You.mp3 */; };
-		AA3EC71D1D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7171D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 */; };
-		AA3EC71E1D7C246800AB5866 /* The XX - Intro - intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7181D7C246800AB5866 /* The XX - Intro - intro.mp3 */; };
-		AA3EC71F1D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA3EC7191D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 */; };
 		AA3EC7221D7C249900AB5866 /* MusicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC7211D7C249900AB5866 /* MusicDataSource.m */; };
 		AA3EC7251D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC7241D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA19F5CD1D7FBB180062A679 /* 《动物世界》主题曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "《动物世界》主题曲.mp3"; sourceTree = "<group>"; };
+		AA19F5CE1D7FBB180062A679 /* 星空.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "星空.mp3"; sourceTree = "<group>"; };
+		AA19F5CF1D7FBB180062A679 /* Adagio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Adagio.mp3; sourceTree = "<group>"; };
+		AA19F5D01D7FBB180062A679 /* Merry Christmas Mr. Lawrence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Merry Christmas Mr. Lawrence.mp3"; sourceTree = "<group>"; };
+		AA19F5D11D7FBB180062A679 /* Song From A Secret Garden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Song From A Secret Garden.mp3"; sourceTree = "<group>"; };
+		AA19F5D21D7FBB180062A679 /* The Fox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Fox.mp3"; sourceTree = "<group>"; };
 		AA3EC6F31D7BF76200AB5866 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3EC6F71D7BF76200AB5866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA3EC6F91D7BF76200AB5866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,12 +43,6 @@
 		AA3EC70E1D7BF77D00AB5866 /* MusicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewController.m; sourceTree = "<group>"; };
 		AA3EC7101D7BF89400AB5866 /* MusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewCell.h; sourceTree = "<group>"; };
 		AA3EC7111D7BF89400AB5866 /* MusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewCell.m; sourceTree = "<group>"; };
-		AA3EC7141D7C246800AB5866 /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11.mp3; sourceTree = "<group>"; };
-		AA3EC7151D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "岸部眞明 - 春、来る.mp3"; sourceTree = "<group>"; };
-		AA3EC7161D7C246800AB5866 /* Chanté Moore - Do for You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chanté Moore - Do for You.mp3"; sourceTree = "<group>"; };
-		AA3EC7171D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Edward Maya,Violet Light - Love Story.mp3"; sourceTree = "<group>"; };
-		AA3EC7181D7C246800AB5866 /* The XX - Intro - intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The XX - Intro - intro.mp3"; sourceTree = "<group>"; };
-		AA3EC7191D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Thomas Bergersen - Empire of Angels.mp3"; sourceTree = "<group>"; };
 		AA3EC7201D7C249900AB5866 /* MusicDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDataSource.h; sourceTree = "<group>"; };
 		AA3EC7211D7C249900AB5866 /* MusicDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDataSource.m; sourceTree = "<group>"; };
 		AA3EC7231D7C37D200AB5866 /* NSString+stringByDecodingURLFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+stringByDecodingURLFormat.h"; sourceTree = "<group>"; };
@@ -110,12 +110,12 @@
 		AA3EC7131D7C245600AB5866 /* mp3 */ = {
 			isa = PBXGroup;
 			children = (
-				AA3EC7141D7C246800AB5866 /* 11.mp3 */,
-				AA3EC7151D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 */,
-				AA3EC7161D7C246800AB5866 /* Chanté Moore - Do for You.mp3 */,
-				AA3EC7171D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 */,
-				AA3EC7181D7C246800AB5866 /* The XX - Intro - intro.mp3 */,
-				AA3EC7191D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 */,
+				AA19F5CD1D7FBB180062A679 /* 《动物世界》主题曲.mp3 */,
+				AA19F5CE1D7FBB180062A679 /* 星空.mp3 */,
+				AA19F5CF1D7FBB180062A679 /* Adagio.mp3 */,
+				AA19F5D01D7FBB180062A679 /* Merry Christmas Mr. Lawrence.mp3 */,
+				AA19F5D11D7FBB180062A679 /* Song From A Secret Garden.mp3 */,
+				AA19F5D21D7FBB180062A679 /* The Fox.mp3 */,
 			);
 			name = mp3;
 			sourceTree = "<group>";
@@ -151,6 +151,12 @@
 				TargetAttributes = {
 					AA3EC6F21D7BF76200AB5866 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZHDZB47VKB;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -177,15 +183,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA19F5D71D7FBB180062A679 /* Song From A Secret Garden.mp3 in Resources */,
+				AA19F5D31D7FBB180062A679 /* 《动物世界》主题曲.mp3 in Resources */,
 				AA3EC7061D7BF76200AB5866 /* LaunchScreen.storyboard in Resources */,
 				AA3EC7031D7BF76200AB5866 /* Assets.xcassets in Resources */,
-				AA3EC71A1D7C246800AB5866 /* 11.mp3 in Resources */,
-				AA3EC71E1D7C246800AB5866 /* The XX - Intro - intro.mp3 in Resources */,
+				AA19F5D81D7FBB180062A679 /* The Fox.mp3 in Resources */,
 				AA3EC7011D7BF76200AB5866 /* Main.storyboard in Resources */,
-				AA3EC71F1D7C246800AB5866 /* Thomas Bergersen - Empire of Angels.mp3 in Resources */,
-				AA3EC71D1D7C246800AB5866 /* Edward Maya,Violet Light - Love Story.mp3 in Resources */,
-				AA3EC71C1D7C246800AB5866 /* Chanté Moore - Do for You.mp3 in Resources */,
-				AA3EC71B1D7C246800AB5866 /* 岸部眞明 - 春、来る.mp3 in Resources */,
+				AA19F5D41D7FBB180062A679 /* 星空.mp3 in Resources */,
+				AA19F5D51D7FBB180062A679 /* Adagio.mp3 in Resources */,
+				AA19F5D61D7FBB180062A679 /* Merry Christmas Mr. Lawrence.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHDZB47VKB;
 				INFOPLIST_FILE = MusicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FutureDial.MusicApp;
@@ -324,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHDZB47VKB;
 				INFOPLIST_FILE = MusicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FutureDial.MusicApp;
@@ -350,6 +358,7 @@
 				AA3EC70C1D7BF76200AB5866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
