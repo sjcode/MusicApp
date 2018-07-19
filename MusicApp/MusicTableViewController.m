@@ -163,6 +163,13 @@
 - (void)remoteControlReceivedWithEvent:(UIEvent *)receivedEvent {
     if (receivedEvent.type == UIEventTypeRemoteControl) {
         switch (receivedEvent.subtype) {
+          case UIEventSubtypeRemoteControlTogglePlayPause:
+            if(self.player.isPlaying) {
+              [self.player stop];
+            } else {
+              [self.player play];
+            }
+            break;
             case UIEventSubtypeRemoteControlPlay:
                 
                 NSLog(@"继续播放");
